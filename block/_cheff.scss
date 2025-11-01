@@ -1,0 +1,32 @@
+.cheff {
+    width: 1440px;
+    height: 688px;
+    margin: auto;
+
+    &_title {
+        font-family: 'Tinos';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 54px;
+        line-height: 62px;
+        color: #000000;
+        text-align: center;
+    }
+
+    &_title span {
+        color: #D67E34;
+    }
+
+    &_images {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        margin-top: 80px;
+    }
+
+    &_image {
+        width: 350px;
+        height: 462px;
+    }
+}
