@@ -1,0 +1,65 @@
+.best {
+    width: 1440px;
+    height: 357px;
+    margin: auto;
+    background-image: url(../images/best_restaurant.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 50px;
+
+    &_texts {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &_title {
+        width: 601px;
+        height: 120px;
+        font-family: 'Tinos';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 52px;
+        line-height: 60px;
+        color: #D67E34;
+        margin: 80px 50px;
+    }
+
+    &_text {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 33px;
+        color: #FFFFFF;
+        margin: -60px 50px;
+
+    }
+
+    &_div {
+        display: flex;
+    }
+
+    &_btn {
+width: 157px;
+height: 47px;
+background: #FF7400;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 19px;
+color: #FFFFFF;
+margin-top: 150px;
+margin-left: 200px;
+    }
+
+    &_btn:hover {
+        background-color: #D67E34;
+        color: cyan;
+    }
+
+    &_btn:active {
+        background-color: #000;
+        color: blue;
+    }
+}
