@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Our restaurant </title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=phone_in_talk" />
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=phone_in_talk" />
     <link rel="stylesheet" href="fonts.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -14,53 +14,98 @@
     <header>
       <div class="container">
         <div class="navbar">
-           <img class="navbar__logo" src="/images/logo.png" alt="logo_img"/>
+          <img class="navbar__logo" src="/images/logo.png" alt="logo_img"/>
 
+      <div class="navbar__main">
         <ul class="navbar__list">
-          <li> <a href="#" class="navbar__link">  </a> </li>
-          <li> <a href="#" class="navbar__link">  </a> </li>
-          <li> <a href="#" class="navbar__link"> </a> </li>
-          <li> <a href="#" class="navbar__link"> </a> </li>
-          <li> <a href="#" class="navbar__link">  </a> </li>
-          <li> <a href="#" class="navbar__link"> </a> </li>
-          <li> <a href="#" class="navbar__link">  </a></li>
-          <li> <a href="#" class="navbar__link"> <i class="ri-logout-box-r-line"></i>  </a></li>
+          <li> <a href="#" class="navbar__link"> ГЛАВНАЯ </a> </li>
+          <li> <a href="#" class="navbar__link"> МЕНЮ </a> </li>
+          <li> <a href="#" class="navbar__link"> О НАС </a> </li>
+          <li> <a href="#" class="navbar__link"> БРОНЬ </a> </li>
+          <i class="ri-shopping-cart-line navbar__cart"></i>
         </ul>
-        
-        <div class="navbar_burger">
-          <div class="navbar_burger_item"></div>
-          <div class="navbar_burger_item"></div>
-          <div class="navbar_burger_item"></div>
-        </div> <!--navbar_burger-->
 
-      <div class="navbar_icons_texts">
-        <div class="navbar_icon_and_text">
-           <i class="ri-timer-line navbar_icon"></i>
-           <p class="navbar_text"> </p>
-        </div> <!-- navbar_icon_and_text -->
-
-        <div class="navbar_icon_and_text">
-           <i class="ri-mail-line navbar_icon"></i>
-           <p class="navbar_text">  </p>
-        </div> <!-- navbar_icon_and_text -->
-
-        <div class="navbar_icon_and_text">
-           <i class="ri-phone-line navbar_icon"></i>
-           <p class="navbar_text"></p>
-        </div> <!-- navbar_icon_and_text -->
-      </div> <!-- navbar_icons_texts -->
+        <div class="navbar__line"></div>
+        <div class="navbar__contact">
+          <div class="navbar__contact__tel">
+            <span class="material-symbols-outlined navbar__contact__tel__icon"> phone_in_talk </span>
+             <!-- <i class="ri-phone-line"></i> -->
+            <p class="navbar__contact__tel__num"> +999-888-76-54 </p>
+          </div> <!-- navbar__contact__tel -->
+          <p class="navbar__contact__text"> Свяжитесь с нами для бронирования </p>
+        </div> <!-- navbar__contact -->
+        <button class="navbar__btn"> ЗАКАЗ СТОЛИКА </button>
+      </div> <!-- navbar__main -->
     </div> <!-- navbar -->
 
-    <div class="intro container">
-      <h3 class="intro_title">  </h3>
-      <p class="intro_text">  </p>
-      <button class="intro_btn">  </button>
-      <h4 class="intro_subtitle">  </h4>
-    </div> <!-- intro container -->
+    <div class="intro">
+      <h2 class="intro__subtitle"> Добро пожаловать в </h2>
+      <h1 class="intro__title"> Наш ресторан </h1>
+      <div class="intro__lines__text">
+        <div class="intro__line"></div>
+        <p class="intro__text"> ДОМ ЛУЧШЕЙ ЕДЫ </p>
+        <div class="intro__line"></div>
+      </div> <!-- intro__lines__text -->
+      <button class="intro__btn"> VIEW MENU </button>
+
+      <div class="intro__cards">
+        <div class="intro__card">
+          <img class="intro__card__img" src="./images/boiling.png" alt="boiling_img">
+          <h6 class="intro__card__title"> Магическая <span> Атмосфера </span> </h6>
+          <p class="intro__card__text1"> В нашем заведении царит магическая атмосфера наполненная вкусными ароматами </p>
+        </div> <!-- intro__card -->
+
+        <div class="intro__card">
+          <img class="intro__card__img" src="./images/boiling.png" alt="boiling_img">
+          <h6 class="intro__card__title"> Лучшее качество <span> Еды </span> </h6>
+          <p class="intro__card__text2"> Качество нашей Еды - отменное! </p>
+        </div> <!-- intro__card -->
+
+        <div class="intro__card">
+          <img class="intro__card__img" src="./images/boiling.png" alt="boiling_img">
+          <h6 class="intro__card__title"> Недорогая <span> Еда </span> </h6>
+          <p class="intro__card__text3"> Стоимость нашей Еды зависит только от ее количества. Качество всегда на высоте! </p>
+        </div> <!-- intro__card -->
+      </div> <!-- intro__cards -->
+    </div> <!-- intro -->
   </div> <!-- container -->
-<!-- </header> -->
+</header>
 
 
+  <section>
+    <div class="our__story">
+      <div class="our__story__texts">
+        <h2 class="our__story__title"> Наша <span> История </span> </h2>
+        <p class="our__story__text"> Как и у любого другого самобытного места, у нас есть своя, особая история. Идея ресторана пришла основателям 
+          неожиданно. Во время прогулки по лесу создатель нашего ресторана застрял в сотнях километров от ближайшего населенного пункта. Вдали от 
+          цивилизации и связи им пришлось навремя обустровать себе нехитрый быт, добывать и готовить себе еду. </p>
+          <div class="our__story__items">
+
+            <div class="our__story__item">
+              <p class="our__story__item__num"> 93 </p>
+              <p class="our__story__item__text"> Напитки </p>
+            </div> <!-- our__story__item -->
+
+            <div class="our__story__item">
+              <p class="our__story__item__num"> 206 </p>
+              <p class="our__story__item__text"> Еда </p>
+            </div> <!-- our__story__item -->
+
+            <div class="our__story__item">
+              <p class="our__story__item__num"> 71 </p>
+              <p class="our__story__item__text"> Закуски </p>
+            </div> <!-- our__story__item -->
+
+          </div> <!-- our__story__items -->
+      </div> <!-- our__story__texts -->
+
+      <div class="our__story__images">
+        <img class="our__story__image__1" src="./images/story_img1.png" alt="story_img1">
+        <img class="our__story__image__2" src="./images/story_img2.png" alt="story_img2">
+        <img class="our__story__image__3" src="./images/story_img3.png" alt="story_img3">
+      </div> <!-- our__story__images -->
+    </div> <!-- our__story -->
+  </section>
 
 
     <section>
@@ -74,10 +119,6 @@
         </div> <!-- best_div -->
       </div> <!-- best -->
     </section>
-
-
-
-
 
 
   <section>
@@ -98,12 +139,6 @@
       </div> <!-- food_contents -->
     </div> <!-- food -->
   </section>
-
-
-
-
-
-
 
 
   <section>
@@ -154,9 +189,6 @@
   </section>
 
 
-
-
-
   <section>
     <div class="comments">
       <p class="comments_text"> Я надолго запомню мой День рождения, проведённый в этом ресторане! Кусочек родной Армении!!! Отдельное спасибо за 
@@ -171,10 +203,6 @@
   </section>
 
   
-      
-      
-      
-      
   <section>
     <div class="gallery">
       <h3 class="gallery_title"> Галерея <span> Блюд </span> </h3>
@@ -189,9 +217,7 @@
     </div> <!-- gallery -->
   </section>    
       
-      
-      
-        
+
 <section>
   <div class="cheff">
     <h3 class="cheff_title"> Наши <span> Повара </span> </h3>
@@ -202,26 +228,6 @@
     </div> <!-- cheff_images -->
   </div> <!-- cheff -->
 </section> 
-
-  
-  <!-- <i class="ri-phone-line"></i>
-  <i class="ri-arrow-down-s-line"></i>
-  <i class="ri-arrow-right-s-line"></i>
-  <i class="ri-arrow-left-s-line"></i>
-  <i class="ri-check-fill"></i>
-  <i class="ri-add-large-fill"></i>
-  <i class="ri-subtract-fill"></i>
-<span class="material-symbols-outlined"> phone_in_talk </span>
-<i class="ri-mail-line"></i>
-<i class="ri-map-pin-2-line"></i>
-<i class="ri-facebook-line"></i>
-<i class="ri-youtube-line"></i>
-<i class="ri-instagram-line"></i>
-<i class="ri-telegram-line"></i>
-<i class="ri-vk-line"></i> -->
-
-
-
 
  <footer class="footer"> </footer> 
 

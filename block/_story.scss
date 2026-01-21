@@ -1,0 +1,104 @@
+.our__story {
+    width: 1440px;
+    height: 800px;
+    margin: auto;
+    display: flex;
+    padding: 300px 0px;
+    
+    &__texts {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    &__title {
+        font-family: 'Tinos';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 54px;
+        line-height: 62px;
+        color: #000000;
+    }
+
+    &__title span {
+        font-family: 'Tinos';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 54px;
+        line-height: 62px;
+        color: #D67E34;
+    }
+
+    &__text {
+        width: 444px;
+        height: 217px;
+
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;
+        color: #656363;
+        margin: 15px 0px;
+    }
+
+    &__items {
+        display: flex;
+        gap: 30px;
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__item__num {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 54px;
+        text-align: center;
+        color: #BC9060;
+    }
+
+    &__item__text {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 27px;
+        text-align: center;
+        color: #000000;
+    }
+
+    &__images {
+        display: flex;
+        position: relative;
+        top: -20px;
+    }
+
+    &__image__1 {
+        width: 233px;
+        height: 320px;
+        position: absolute;
+        top: 50px;
+        right: 420px;
+    }
+
+    &__image__2 {
+        width: 250px;
+        height: 430px;
+    }
+
+    &__image__3 {
+        width: 254px;
+        height: 300px;
+        position: relative;
+        top: 200px;
+        right: 160px;
+    }
+}

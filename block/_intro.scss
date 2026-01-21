@@ -1,6 +1,155 @@
+.intro {
+    width: 1440px;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin: 0px 160px;
 
+    &__subtitle {
+        font-family: 'Tinos';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 57px;
+        color: #D67E35;
+        margin: 0px 30px;
+    }
 
+    &__title {
+        font-family: 'Tinos';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 80px;
+        line-height: 92px;
+        color: #D67E35;
+    }
 
-.title {
-    font-family: 'Open Sans';
+    &__lines__text {
+        display: flex;
+        gap: 10px;
+        margin: 15px 90px;
+    }
+
+    &__line {
+        width: 61px;
+        height: 2px;
+        background: #C4C4C4;
+        margin: 11px 0px;
+    }
+
+    &__text {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+        color: #FFFFFF;
+    }
+
+    &__btn {
+        width: 137px;
+        height: 47px;
+        background: #FF7400;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 19px;
+        color: #FFFFFF;
+        border: none;
+        margin: 10px 180px;
+    }
+
+    &__btn:hover {
+        background-color: #fff;
+        color: #FF7400;
+        border: 5px solid #FF7400;
+    }
+
+    &__btn:active {
+        border: 5px solid ;
+        color: black;
+    }
+
+    &__cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        position: relative;
+        top: 50px;
+    }
+
+    &__card {
+        width: 349px;
+        height: 290px;
+        background-color: #FFFFFF;
+        border: 0.5px solid grey;
+    }
+
+    &__card__img {  
+        width: 87px;
+        height: 87px;
+        display: flex;
+        margin: auto;
+    }
+
+    &__card__title {
+        font-family: 'Tinos';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 30px;
+        color: #2C2C2C;
+        text-align: center;
+    }
+
+    &__card__title span {
+        color: #BC9060;
+    }
+
+    &__card__text1 {
+        width: 376px;
+        height: 85px;
+
+        font-family: 'Tinos';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 30px;
+        text-align: center;
+        color: #656363;
+        margin: 7px auto;
+        padding-right: 30px;
+    }
+
+    &__card__text2 {
+        width: 226px;
+        height: 85px;
+
+        font-family: 'Tinos';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 30px;
+        text-align: center;
+        color: #656363;
+        margin: 7px auto;
+    }
+
+    &__card__text3 {
+        width: 300px;
+        height: 85px;
+
+        font-family: 'Tinos';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 30px;
+        text-align: center;
+        color: #656363;
+        margin: 7px auto;
+    }
 }

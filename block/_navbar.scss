@@ -1,0 +1,109 @@
+.navbar {
+    width: 1440px;
+    height: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 24px 0px;
+
+    &__logo {
+        width: 100px;
+        height: 68px;
+    }
+
+    &__main {
+        width: 742px;
+        height: 64px;
+        padding: 20px 0px;
+        display: flex;
+    }
+
+    &__list {
+        display: flex;
+        gap: 28px;
+    }
+
+    &__link {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 19px;
+        color: #FFFFFF;
+    }
+
+    &__cart {
+        font-size: 15px;
+        color: white;
+    }
+
+    &__line {
+        width: 51px;
+        height: 0px;
+        border: 1px solid #FFFFFF;
+        transform: rotate(90deg);
+        margin: 8px 0px;
+    }
+
+    &__contact {
+        display: flex;
+        flex-direction: column;
+        margin: -20px 0px;
+        
+    }
+
+    &__contact__tel {
+        display: flex;
+        gap: 10px;
+    }
+
+    &__contact__tel__icon {
+        color: white;
+    }
+
+    &__contact__tel__num {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 25px;
+        color: #FFFFFF;
+    }
+
+    &__contact__text {
+        width: 154px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        color: #FFFFFF;
+    }
+
+    &__btn {
+        width: 157px;
+        height: 47px;
+        background: #FF7400;
+        border: none;
+
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 19px;
+        color: #FFFFFF;
+        margin: -15px 0px;
+        margin-left: 45px;
+    }
+
+    &__btn:hover {
+        background-color: #FFFFFF;
+        color: #FF7400;
+        border: 5px solid #FF7400;
+    }
+
+    &__btn:active {
+        background-color: black;
+        color: cyan;
+        border: 5px solid cyan;
+    } 
+}

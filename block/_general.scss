@@ -7,6 +7,17 @@
 a {
   text-decoration: none;
 }
+
 li {
   list-style: none;
+}
+
+.container {
+  width: 1440px;
+  height: 700px;
+  border: 1px solid ;
+  background-image: url(../images/intro.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 20px auto 0px;
 }
